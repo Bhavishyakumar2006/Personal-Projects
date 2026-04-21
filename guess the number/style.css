@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    margin: 25px auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(94, 71, 179);
+}
+#title{
+    margin-top: 20px;
+    text-align: center;
+}
+.info{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+.text{
+    margin-top: 15px;
+    text-align: center;
+}
+#inputBox{
+    width: 150px;
+    height: 27px;
+    margin:15px 0 0 122px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+#guessBtn{
+    width: 110px;
+    height: 28px;
+    margin:15px 0 0 145px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.result{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.pastGuessesText{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.pastGuessesShow{
+    text-align: center;
+    margin-top: 3px;
+    color: rgb(155, 119, 119);
+}
+.guessesLeft{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}

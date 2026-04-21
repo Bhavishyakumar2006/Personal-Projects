@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.title {
+  width: 100%;
+  height: 6vh;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+#first-div {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 155px;
+  margin-top: 20vh;
+  border-radius: 50%;
+  background-color: rgba(250, 245, 245, 0.877);
+}
+.option img:hover {
+  border: 5px solid purple;
+  cursor: pointer;
+}
+.option img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  mix-blend-mode: darken;
+  border: 2px solid black;
+}
+
+#second-div {
+  width: 100%;
+  height: 30vh;
+  font-size: 2vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  line-height: 1.5;
+}
+.user, .comp{
+  text-align: center;
+}
+#second-div h3 {
+  color: white;
+}
+#third-div {
+  width: 100%;
+  height: calc(30vh - 6vh);
+  display: flex;
+  justify-content: center;
+}
+#massage-btn {
+  height: 5vh;
+  width: 13vw;
+  font-size: 1.25vw;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-weight: 700;
+  opacity: 0.7;
+  background-color: white;
+}

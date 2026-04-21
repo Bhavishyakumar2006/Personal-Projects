@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(106, 161, 101);
+    margin: auto;
+}
+.inpPara{
+    margin: 40px 0 0 40px;
+    font-size: large;
+    font-weight: 550;
+}
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+}
+#calculateBtn{
+    width: 100px;
+    height: 28px;
+    margin: 45px 0 0 130px;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 550;
+}
+#calculateBtn:active{
+    border-color: blue;
+}
+#displayBMI{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(202, 36, 36);
+}
+#BMIInfo{
+    margin-top: 6.5px;
+    text-align: center;
+    font-size: 18.5px;
+}
+.BMIGuide{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 8px;
+    margin-left: 600px;
+    font-size: 18px;
+}
